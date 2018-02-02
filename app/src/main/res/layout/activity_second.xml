@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.amrihanif.amrihanif_1202150075_modul1.SecondActivity">
+
+    <TextView
+        android:id="@+id/makanMalam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/makan_malam"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <TextView
+        android:id="@+id/tempat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tempat"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <TextView
+        android:layout_marginTop="45dp"
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Menu"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="35dp" />
+    <TextView
+        android:id="@+id/namaMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="35dp" />
+    <TextView
+        android:id="@+id/porsi"
+        android:layout_marginTop="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/porsi"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="35dp" />
+    <TextView
+        android:id="@+id/jumlahPorsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jumlahporsi"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="35dp" />
+    <TextView
+        android:layout_marginTop="45dp"
+        android:id="@+id/harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/JumlahHarga"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <TextView
+        android:id="@+id/jumlahHarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Nilaiharga"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="35dp" />
+</LinearLayout>
