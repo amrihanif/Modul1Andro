@@ -30,7 +30,7 @@
 
     <EditText
         android:id="@+id/makanan"
-        android:layout_width="232dp"
+        android:layout_width="319dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
@@ -38,14 +38,14 @@
 
     <EditText
         android:id="@+id/jumlah"
-        android:layout_width="228dp"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:hint="@string/harga" />
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="45dp"
         android:gravity="center"
@@ -53,9 +53,9 @@
 
         <Button
             android:id="@+id/btEatBus"
-            android:layout_width="wrap_content"
+            android:layout_width="128dp"
             android:layout_height="wrap_content"
-            android:layout_marginRight="20dp"
+            android:layout_marginRight="50dp"
             android:background="@color/colorAccent"
             android:onClick="eatbus"
             android:paddingLeft="10dp"
@@ -67,7 +67,7 @@
             android:id="@+id/btAbnormal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="20dp"
+            android:layout_marginRight="50dp"
             android:background="@color/colorAccent"
             android:onClick="Abnormal"
             android:paddingLeft="10dp"
